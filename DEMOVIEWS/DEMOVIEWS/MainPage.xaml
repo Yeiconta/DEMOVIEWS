@@ -5,8 +5,12 @@
              x:Class="DEMOVIEWS.MainPage">
     <ScrollView>
     <StackLayout>
-            <Image Source="20180218_200805.png"
-              Aspect="Fill"/>
+            <Image Source="Imagen.png"
+              Aspect="Fill"
+                   WidthRequest="50"
+                   HeightRequest="50"
+                   HorizontalOptions="Center"/>
+        
 
             <Label
             HorizontalOptions="Center"
@@ -16,7 +20,7 @@
             HorizontalTextAlignment="End"
             BackgroundColor="Blue"
             WidthRequest="200"
-            />
+            ></Label>
             <Label VerticalOptions="Center"
                HorizontalOptions="Center"
                Text="Desarrollo de aplicaciones moviles multiplataforma"
@@ -25,7 +29,7 @@
                BackgroundColor="Blue"
                WidthRequest="200"
                HeightRequest="300"
-               LineBreakMode="HeadTruncation"/>
+               LineBreakMode="HeadTruncation"></Label>
         </StackLayout>
     </ScrollView>
 </ContentPage>
